@@ -1,0 +1,16 @@
+TYPE: JumpPad
+	
+COLOR: FFFF9648
+
+SIZE: 1x2
+
+ANIMATION:
+frame: objects/jumppad_1.png: 1000
+
+ACTIVE ANIMATION:
+frame: objects/jumppad_activated_1.png: 100
+frame: objects/jumppad_activated_2.png: 100
+
+ACTIVE SOUND: dang.wav
+	
+SPEED MULTIPLIER: 3

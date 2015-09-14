@@ -1,0 +1,8 @@
+TYPE: DeathTrap
+
+COLOR: FFFFBB7F
+
+SIZE: 2x3
+
+ANIMATION:
+frame: objects/deathtrap.png: 1000

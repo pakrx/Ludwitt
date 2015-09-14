@@ -1,0 +1,8 @@
+TYPE: Decoration
+
+COLOR: FF108500
+
+SIZE: 4x4
+
+ANIMATION:
+frame: objects/up.png: 1000

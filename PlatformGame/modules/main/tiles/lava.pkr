@@ -1,0 +1,8 @@
+TYPE: Tile
+
+COLOR: FFFF4E00
+
+IMAGES:
+image: lava: 100
+
+DEADLY: true

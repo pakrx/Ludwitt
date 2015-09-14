@@ -1,0 +1,29 @@
+TYPE: PlayerCharacter
+
+COLOR: FF0000FF
+
+SIZE: 1x2
+
+NAME: Ludwig Josef Johann
+
+ANIMATION:
+frame: characters/torsos/black.png: 1000
+
+HEAD-ANIMATION:
+direction: DIRECTION_RIGHT
+frame: characters/heads/white-right.png: 1000
+
+HEAD-ANIMATION:
+direction: DIRECTION_LEFT
+frame: characters/heads/white-left.png: 1000
+
+LEGS-ANIMATION:
+direction: DIRECTION_RIGHT
+frame: characters/legs/black-right.png: 1000
+
+LEGS-ANIMATION:
+direction: DIRECTION_LEFT
+frame: characters/legs/black-left.png: 1000
+
+
+PORTRAIT: characters/heads/white.png

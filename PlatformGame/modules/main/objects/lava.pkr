@@ -1,0 +1,6 @@
+TYPE: DeathTrap
+
+COLOR: FFFFF600
+
+ANIMATION:
+frame: objects/lava.png: 1000

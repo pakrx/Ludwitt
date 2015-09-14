@@ -1,0 +1,72 @@
+
+minimum resolution 800x600
+maximum resolution 1920x1080
+
+Sound format:
+ambient: 8000Hz, stereo, 16bit, PCM
+clips: 8000Hz, mono, 16bit, PCM
+
+Game story is a life of the main character.
+He starts it inside mother's womb, goes through childhood,
+grows up, grows old, and eventually dies.
+
+Game is a series of levels with multiple exits.
+Each exit goes to different next level.
+Different levels give different Actions and opponents.
+
+Enemies represent diseases and various life problems like:
+extreme laziness, alcoholism, depression.
+
+Folder structure:
+/ modules
+	/ main
+		/ enemies
+		/ images
+		/ levels
+			/ level1
+				/ enemies
+				/ images
+				/ objects
+				/ pick ups
+				/ sounds
+				/ tiles
+		/ objects
+		/ pick ups
+		/ sounds
+		/ tiles
+
+Controls:
+arrows - moving
+escape - overlay window close if applicable
+enter - overlay window OK
+tab - overlay window switch options
+1-9 - battle actions
+
+
+Level ideas:
+1. INTRO LEVEL very simple tutorial, spiritual
+2. INSIDE WOMB (inside body, cells, veins, pubic hair)
+3. CHILDHOOD:
+	- overbearing parents, eyes, cages
+	- abandoned child, empty houses, shacks, insects
+4. YOUTH:
+	- no gf loner, manchild, beta, loser, computer, hunchback, bad eyesight
+	- drug addict, new age, sects 
+	- bydlo, manual labour, bad food, alcohol
+5. BEING A MAN
+	- no friend, no job, loner, homeless
+	- own ugly children and ugly wife, alcohol, abusive
+	- workaholic, beta, used
+6. OLD
+	- alzheimer
+	- body falling off
+7.
+	- cancer
+	- jail
+	- psycho murderer
+	- coma, dark place, dreamlike
+	- paranoia
+	- depression
+8. 
+	- death
+

@@ -1,0 +1,9 @@
+English
+
+cower: Cower
+cower format: %s cowers at the sight of %s.
+cower description: Being a coward causes no damage. It is a dishonorable act of hopelessness.
+
+punch: Punch
+punch format: %s punches %s in the face.
+punch description: Pressing a fist into opponent's face with considerable speed and force causing blunt damage.

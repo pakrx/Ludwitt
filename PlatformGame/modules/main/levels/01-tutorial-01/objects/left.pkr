@@ -1,0 +1,8 @@
+TYPE: Decoration
+
+COLOR: FF0C6800
+
+SIZE: 4x4
+
+ANIMATION:
+frame: objects/left.png: 1000

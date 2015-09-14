@@ -1,0 +1,9 @@
+TYPE: Tile
+
+COLOR: FF222222
+	
+IMAGES:
+image: back: 20
+image: back2: 80
+
+WALKTHROUGH: true

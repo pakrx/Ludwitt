@@ -1,0 +1,334 @@
+
+----------------------------------- TODO -----------------------------------
+
+VISUAL-FUNCTIONALITY
+
+- campaign
+- traits
+- effects during battle
+- overlay animations of explosions, blood
+- screenshot functionality
+- screen fading in and out (for example while a new level is loading)
+- walking sound loop bug fix
+- loading of sounds with level
+- game over biography of player, depending on choices and death
+- saving and loading game
+- character generation from body parts (images and text files)
+- character window showing character health and info
+	- reordering known actions
+
+VISUAL-CONTENT
+- graphical design of battle window
+	
+AUDIO-FUNCTIONALITY
+
+AUDIO-CONTENT
+
+MULTI-PLAYER
+
+
+
+----------------------------------- DONE -----------------------------------
+
+2015-03-23
+- bug fix: reading animations with states and directions
+
+2015-03-22
+- bug fix: reading player character from file
+
+2015-03-21
+-
+
+2015-03-20
+- reading player char from .PKR
+
+2015-03-19
+- bug fix: reading jump pad from .PKR file
+
+2015-03-17
+- multi part bodies read from .PKR files
+
+2015-03-16
+- bug fix: it does not crash anymore
+
+2015-03-15
+-
+
+2015-03-14
+-
+
+2015-03-13
+-
+
+2015-03-12
+- beginning: multi state and multi directions character animations from .PKR files
+- beginning: reading objects from files rework
+
+2015-03-11
+- beginning: multi state and multi directions character animations from .PKR files
+- beginning: reading objects from files rework
+
+2015-03-10
+- beginning: multi state and multi directions character animations from .PKR files
+
+2015-03-09
+- beginning: multi state and multi directions character animations from .PKR files
+
+2015-03-08
+- beginning: multi state and multi directions character animations from .PKR files
+
+2015-03-07
+- multi-part character bodies, read from .PKR
+
+2015-03-06
+-
+
+2015-03-05
+-
+
+2015-03-04
+- horizontally blocking objects
+
+2015-03-03
+- tiles having different versions of image, randomly chosen with probabilities
+
+2015-03-02
+- crushing object
+- door read from .PKR leading to next level
+
+2015-03-01
+- beginning crushing object
+- reading crushing object from .PKR file
+
+2015-02-28
+- action pick ups
+- punch action pick up from .PKR file
+
+2015-02-27
+- energy pick up from .PKR file
+- action adding a trait
+
+2015-02-26
+- walk-through tiles
+- decoration objects
+
+2015-02-25
+- strings .PKR files
+- reading character actions from .PKR files
+
+2015-02-24
+- beginning of strings file
+
+2015-02-23
+- beginning of traits and effects
+- fix for battle window - action list does not show de depleted actions
+
+2015-02-22
+- reading game objects from .PKR text files
+- reading tiles and tile map from .PKR text files and tile map layout image
+- reading enemies from .PKR files
+
+2015-02-21
+- sound resource files put into modules and levels folders
+- foundation for reading entire levels from module level directory structure
+
+2015-02-20
+- image resource files put into modules and levels folders
+
+2015-02-19
+- reading objects and enemies from image file
+
+2015-02-18
+- more convenient storage of tile images
+- reading tile layout from image file
+
+2015-02-17
+- option for tiles to have edges depending on neighbouring tiles
+
+2015-02-16
+- buttons, widgets, dialogues, message dialogues
+- game over 
+
+2015-02-15
+- overlay windows can rebind previous key bindings
+- functional battle window
+
+2015-02-14
+- battle actions affect players during battle
+- win battle when enemy has no health
+- problems with overlay window (backspace stops working)
+- basic functional battle window
+- character doesn't fall down single holes until he hits horizontal collision
+
+2015-02-13
+- title bar for overlay windows
+- list GUI element
+
+2015-02-12
+- overlay windows can be dragged with mouse
+- slowly filling up battle window
+
+2015-02-11
+- custom mouse events framework 
+
+2015-02-10
+- character portraits
+
+2015-02-09
+- text caption - setting text vertically and horizontally in middle, multiple lines
+
+2015-02-08
+- text caption
+- beginning of battle window
+
+2015-02-07
+- starting rewriting GUI
+- health bar
+
+2015-02-06
+- all GUI elements need another rewrite because of problems with displaying images
+- battle window fail at bug fixing
+
+2015-02-05
+- battle window layout almost done
+- more efficient portrait drawing, unfortunately stops drawing when hidden
+
+2015-02-04
+- display attack and win buttons
+- short cuts for action buttons and for win and attack buttons
+
+2015-02-03
+- display action description
+- display action amounts
+
+2015-02-02
+- display character portraits in battle window
+- display list of actions in battle window
+
+2015-02-01
+- scaffolding for battle window
+
+2015-01-31
+- fix - game objects can pause with platform game object (for example to stop looping sounds)
+
+2015-01-30
+- working sound location
+
+2015-01-29
+- sound location
+
+2015-01-28
+- sound location, beginnings
+
+2015-01-27
+- memory clean up
+
+2015-01-26
+- looping sounds
+- walking sound
+
+2015-01-25
+- sound playing (ambient, music, source line) beginnings
+
+2015-01-24
+- camera movement final
+- sound playing (short clips)
+
+2015-01-23
+- objects collision with tile map fix, object no longer go through it in low fps
+- camera movement decision, window of static camera in the middle of screen
+
+2015-01-22
+- blank battle window, it closes on pressing enter, remembers its participants
+
+2015-01-21
+- one time animations
+
+2015-01-20
+- blank game over window
+- decided not to bind the same key to different actions, it would complicate things, 
+	the excuse is that the player might press a key that would do something
+	in a window that just opened
+- audacity to create ambient noises, no music
+- different animations for different game object states
+
+2015-01-19
+- doors between levels
+
+2015-01-18
+- working life energy pick up
+- damage pick up
+- jump pad
+- game objects can face left or right, will be used for animations
+
+2015-01-17
+- stack of overlay windows which bind actions to keys only if they are active
+- remade health bar
+
+2015-01-16
+- scrapped some progress in anger - need to rewrite stuff, it's for the better though
+- bug fix freezes
+- get rid of threads executing things
+
+2015-01-15
+- InputHandler - global actions, static method and arrays, action binding
+- Game singleton
+
+2015-01-14
+- energy bar visible in world mode
+- basic functional battle window
+
+2015-01-13
+- bug fix: player character can now jump continuously in both direction interchangeably
+- re-factoring - Level, GameWorld, and Game classes split
+- battle over
+- split Game class from world mode
+- actions instead of direct key checking in input - decided against it
+- Level class for storing current level state
+
+2015-01-12
+- keyboard input in overlay windows
+- game over window
+- enemy affecting player when battle ends - good effect if player wins, bad if player loses
+- enemy affecting player when battle ends - player may get killed after losing
+
+2015-01-11
+- got rid of Input Manager class
+- got rid of input lag
+- several image layers behind and in front of tile map and player giving visual depth
+
+2015-01-10
+- bug fix: problem with updating objects
+- working life energy pick up
+- (battle window) actions can affect players
+
+2015-01-09
+- pick-ups can affect players
+- character gathering health
+
+2015-01-08
+- enemy uses random attack
+- character attacks deplete
+- (battle window) player clicks on attacks
+- (battle window) performed actions are listed 
+
+
+2015-01-07
+- actions (attacks, moves, defence, and so on) for characters
+- (battle window) show lists of attacks of participants in battle
+
+2015-01-06
+- split enemies and other game objects on map 
+- really basic not yet functional battle window showing when player hits enemy
+- pick ups
+- decided to stay at flat modes /stack of overlay windows instead of flat modes/
+
+2015-01-05
+- update and draw only game objects that are near player
+- show fps
+- show menu with working exit game
+
+2015-01-01 - 2015-01-04
+- tile map
+- collisions
+- gravity

@@ -1,0 +1,8 @@
+TYPE: Decoration
+
+COLOR: FF14A600
+
+SIZE: 4x4
+
+ANIMATION:
+frame: objects/f9.png: 1000

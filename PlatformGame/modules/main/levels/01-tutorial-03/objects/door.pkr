@@ -1,0 +1,10 @@
+TYPE: Door
+
+COLOR: FFFF0000
+
+SIZE: 3x4
+
+ANIMATION:
+frame: objects/door.png: 1000
+
+LEVEL: 01-tutorial-04

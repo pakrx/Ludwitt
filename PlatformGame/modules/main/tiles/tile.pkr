@@ -1,0 +1,7 @@
+TYPE: Tile
+
+COLOR: FF000000
+
+IMAGES:
+image: tilemulti: 99
+image: tilemulti2: 1

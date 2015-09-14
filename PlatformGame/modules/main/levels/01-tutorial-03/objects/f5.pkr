@@ -1,0 +1,8 @@
+TYPE: Decoration
+
+COLOR: FF0C6400
+
+SIZE: 4x4
+
+ANIMATION:
+frame: objects/f5.png: 1000

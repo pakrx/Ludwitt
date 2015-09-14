@@ -1,0 +1,10 @@
+TYPE: DamagePickup
+
+COLOR: FFC000FF
+
+ANIMATION:	
+frame: objects/damage_pickup_1.png: 500
+frame: objects/damage_pickup_2.png: 500
+frame: objects/damage_pickup_3.png: 500
+
+AMOUNT: 5

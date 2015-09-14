@@ -1,0 +1,8 @@
+TYPE: Decoration
+	
+COLOR: FFFF00FF
+
+SIZE: 1x1
+
+ANIMATION:
+frame: objects/paintingsmall.png: 1000

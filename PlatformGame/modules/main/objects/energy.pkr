@@ -1,0 +1,11 @@
+TYPE: EnergyPickup
+
+COLOR: FF506B80
+
+ANIMATION:	
+frame: objects/life_pickup_black_1.png: 500
+frame: objects/life_pickup_black_2.png: 200
+frame: objects/life_pickup_black_1.png: 500
+frame: objects/life_pickup_black_3.png: 200
+
+AMOUNT: 5

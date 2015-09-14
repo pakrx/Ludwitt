@@ -1,0 +1,10 @@
+TYPE: Door
+
+COLOR: FF790000
+
+SIZE: 3x4
+
+ANIMATION:
+frame: objects/door.png: 1000
+
+LEVEL: 03-childhood-01

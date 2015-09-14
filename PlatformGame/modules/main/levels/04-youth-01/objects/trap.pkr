@@ -1,0 +1,15 @@
+TYPE: Trap
+	
+COLOR: FF612020
+
+SIZE: 1x1
+
+ANIMATION:
+frame: objects/trap-ready.png: 1000
+
+ACTIVE ANIMATION:
+frame: objects/trap-closed.png: 1000
+
+ACTIVE SOUND: dang.wav
+	
+DAMAGE: 20
