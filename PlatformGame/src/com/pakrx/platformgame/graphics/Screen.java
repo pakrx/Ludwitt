@@ -33,7 +33,7 @@ public class Screen {
 		frame.setUndecorated(true);
 		frame.setResizable(false);
 		frame.setIgnoreRepaint(true);
-		frame.setBackground(Color.darkGray);
+		frame.setBackground(Color.black);
 		
 		GraphicsEnvironment graphicsEnvironment = GraphicsEnvironment.getLocalGraphicsEnvironment();
 		GraphicsDevice graphicsDevice = graphicsEnvironment.getDefaultScreenDevice();
